@@ -9,14 +9,20 @@ body {
   flex-direction: column;
 }
 
-.header,
-.footer{
-    background-color: #1F2937;
-    display: flex;
-}
-
 .header-left{
     font-size: 24px;
     color: #F9FAF8;
 
+}
+
+.section{
+    display: flex;
+    justify-content:center;
+    flex: auto;
+}
+
+.section.header,
+.section.footer{
+    background-color: #1F2937;
+    flex: initial;
 }
