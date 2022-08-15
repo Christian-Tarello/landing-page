@@ -12,6 +12,7 @@ body {
 .header-left{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 
 }
 
@@ -25,7 +26,9 @@ body {
 .section.footer-wrapper{
     background-color: #1F2937;
     flex: initial;
+    height: 10%;
 }
+
 
 .container{
     display: flex;
