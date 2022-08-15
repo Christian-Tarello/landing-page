@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Applied to all CSS */
 
 * {
     box-sizing: border-box;
@@ -14,19 +15,29 @@ body {
   overflow: auto;
 }
 
+
+/* Mixed CSS */
+
 .header-left,
 .intro-title{
     color:#F9FAF8;
 }
 
-.intro-title{
-    font-size: 48px;
+
+/* Generic CSS */
+
+.dark-blue-background{
+    background-color: #1F2937;
 }
 
-.header-left{
-    font-size: 24px;
-    font-weight: bold;
+.secondary-white-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
+
+/* Section CSS */
 
 .section{
     display: flex;
@@ -40,14 +51,50 @@ body {
     height: 70px;
 }
 
-.dark-blue{
-    background-color: #1F2937;
+
+/* Container CSS*/
+
+.container,
+.small-container{
+    display: flex;
+    width: 925px;
 }
 
+.container{
+    padding: 100px 0;
+}
+
+
+/* Header CSS */
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+}
+
+
+/* Intro CSS */
 
 .intro{
     gap: 16px;
     align-items: center;
+}
+
+.intro-title{
+    font-size: 48px;
 }
 
 .intro-text{
@@ -80,36 +127,4 @@ body {
     padding: 8px 40px;
     border-radius: 8px;
     font-weight: bold;
-}
-
-.container,
-.small-container{
-    display: flex;
-    width: 925px;
-}
-
-.container{
-    padding: 100px 0;
-}
-
-
-
-.header{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-list{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 36px;
-}
-
-
-.secondary-white-text{
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
 }
