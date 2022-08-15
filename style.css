@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+* {
+    box-sizing: border-box;
+  }
+
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .header-left,
@@ -27,13 +32,12 @@ body {
     display: flex;
     justify-content:center;
     flex: auto;
-    
 }
 
-section.header-wrapper,
-section.footer-wrapper{
+.section.header-wrapper,
+.section.footer-wrapper{
     flex: initial;
-    height: 10%;
+    height: 70px;
 }
 
 .dark-blue{
@@ -80,7 +84,7 @@ section.footer-wrapper{
 
 .container{
     display: flex;
-    width: 70%;
+    width: 925px;
 }
 
 
