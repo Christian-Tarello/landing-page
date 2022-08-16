@@ -128,3 +128,44 @@ body {
     border-radius: 8px;
     font-weight: bold;
 }
+
+
+/* Information CSS */
+
+.information{
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards-container{
+    display: flex;
+    gap: 48px;
+}
+
+.blue-image-placeholder{
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-radius: 16px;
+    border-color: #3883F6;
+    border-style: solid;
+    margin-bottom: 8px;
+}
+
+.card-content{
+    text-align: center;
+    max-width: 150px;
+    color: rgb(99, 99, 99);
+}
+
+
+
+
+
