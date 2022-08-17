@@ -36,6 +36,12 @@ body {
     color: #E5E7EB;
 }
 
+.blue-button{
+    background-color: #3883F6;
+    padding: 8px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
 /* Section CSS */
 
@@ -122,11 +128,7 @@ body {
 }
 
 .intro-button{
-    background-color: #3883F6;
     border-width: 0;
-    padding: 8px 40px;
-    border-radius: 8px;
-    font-weight: bold;
 }
 
 
@@ -195,3 +197,28 @@ body {
 
 /* Signup Section */
 
+.signup-box{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3883F6;
+    border-radius: 8px;
+    padding: 48px 96px;
+}
+
+.signup-title{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.signup-button{
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.signup-right{
+    align-self: flex-end;
+}
