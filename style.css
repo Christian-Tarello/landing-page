@@ -222,3 +222,10 @@ body {
 .signup-right{
     align-self: flex-end;
 }
+
+/* Footer Section */
+
+.footer{
+    align-items: center;
+    justify-content: center;
+}
